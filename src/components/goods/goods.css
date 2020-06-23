@@ -1,0 +1,89 @@
+.catalog {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.catalog .center {
+  text-align: center;
+  padding: 30px 110px;
+  max-width: 900px;
+  width: auto;
+  margin: 0 auto;
+}
+
+.catalog .center .itembox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.catalog .center .itembox .item:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.catalog .center .itembox .item:not(:hover) {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.catalog .center .itembox .item {
+  width: 220px;
+  height: 260px;
+  -webkit-box-shadow: 5px 5px 35px rgba(0, 0, 0, 0.25);
+  box-shadow: 5px 5px 35px rgba(0, 0, 0, 0.25);
+  background: #ffffff;
+  border-radius: 8px;
+  margin: 30px 35px;
+  vertical-align: bottom;
+}
+
+.catalog .center .itembox .item .img {
+  max-width: 150px;
+  height: auto;
+  padding: 10px 22px;
+}
+
+.catalog .center .itembox .item .text2 {
+  font-family: "Merienda", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  padding: 10px 20px;
+}
+
+.catalog .center .itembox .item .text3 {
+  font-family: "Merienda", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  color: #000000;
+  padding: 4px 20px;
+  margin: 0;
+}
+
+.catalog .center .itembox .item .price {
+  padding: 0 20px 10px 0;
+  text-align: right;
+  font-family: "Merienda", cursive;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  color: #000000;
+  vertical-align: bottom;
+}
+.bottom {
+  vertical-align: bottom;
+}

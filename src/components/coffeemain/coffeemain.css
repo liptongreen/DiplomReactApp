@@ -1,0 +1,80 @@
+.ourCoffee {
+  height: 260px;
+  max-width: 1440px;
+  width: 100%;
+  margin: -90px auto 0 auto;
+  background-image: url("../../picturesD/MaskGroup.jpg");
+}
+
+.ourCoffee .text1 {
+  padding: 115px 0 84px 0;
+  font-family: "Merienda", cursive;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 58px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.aboutOurBeans {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.aboutOurBeans .centerflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 70px 0;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.aboutOurBeans .centerflex .img {
+  margin: 0 70px;
+  -webkit-box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.25);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.25);
+}
+
+.aboutOurBeans .centerflex .text {
+  max-width: 346px;
+  text-align: center;
+}
+
+.aboutOurBeans .centerflex .text .text2a {
+  color: white;
+  font-family: "Merienda", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.aboutOurBeans .centerflex .text img {
+  padding: 20px 0;
+}
+
+.aboutOurBeans .centerflex .text .text1 {
+  font-family: "Merienda", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 35px;
+  color: #000000;
+}
+
+.aboutOurBeans .centerflex .text .text2 {
+  font-family: "Merienda", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}

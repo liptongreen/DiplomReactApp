@@ -1,0 +1,54 @@
+.bottom {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.bottom .center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.bottom .center .img {
+  padding-bottom: 20px;
+}
+
+.bottom .center .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 30px 0;
+  list-style-type: none;
+}
+
+.bottom .center .navbar .text {
+  font-family: "Merienda", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  color: #000000;
+  padding: 20px 10px;
+  text-decoration: none;
+}
+
+.bottom .center .navbar .logo {
+  margin: auto 0;
+  padding-left: 20px;
+  color: black;
+}
+.bottom .center .navbar .text:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.bottom .center .navbar .text:not(:hover) {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
