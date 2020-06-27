@@ -6,6 +6,8 @@ import CoffeePage from "../../pages/coffee";
 import PleasurePage from "../../pages/pleasure";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Cart from "../cart";
+import ContactPage from "../../pages/contact/contact";
+import ThanksPage from "../../pages//thanks";
 
 class App extends React.Component {
   render() {
@@ -16,7 +18,9 @@ class App extends React.Component {
           <Route path="/" component={MainPage} exact />
           <Route path="/coffee" component={CoffeePage} exact />
           <Route path="/pleasure" component={PleasurePage} exact />
+          <Route path="/contact" component={ContactPage} exact />
           <Route path="/coffee/:id" component={Cart} exact />
+          <Route path="/contact/thanks" component={ThanksPage} exact />
           <Route
             render={() => (
               <h1 margin="0 auto" padding="100px 100px">

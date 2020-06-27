@@ -1,0 +1,48 @@
+.thanks {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.thanks .text1 {
+  padding: 60px 0 20px 0;
+  font-family: "Merienda", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 35px;
+  color: #000000;
+  text-align: center;
+  margin: 0;
+}
+
+.thanks .img {
+  padding-bottom: 40px;
+}
+
+.thanks .text2 {
+  padding: 50px 0 40px 0;
+  font-family: "Merienda", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 52px;
+  text-align: center;
+  color: #000000;
+}
+
+.thanks .btn {
+  margin: 60px auto 30px auto;
+  width: 80px;
+  padding: 6px 22px;
+  font-family: "Merienda", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  /* identical to box height */
+  border: 1px solid rgba(0, 0, 0, 0.49);
+  -webkit-box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  color: #000000;
+}

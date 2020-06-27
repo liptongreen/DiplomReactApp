@@ -1,0 +1,124 @@
+.form {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form .text3 {
+  font-family: "Merienda", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  padding-bottom: 30px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.form .text3 .red {
+  color: red;
+}
+
+.form .text1 {
+  padding: 60px 0 20px 0;
+  font-family: "Merienda", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 35px;
+  color: #000000;
+}
+
+.form .img {
+  padding-bottom: 40px;
+}
+
+.form .flexbox {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 400px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.form .flexbox .text2 {
+  font-family: "Merienda", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.form .flexbox .text2 .red {
+  color: red;
+  padding-right: 20px;
+}
+
+.form .flexbox #input {
+  width: 220px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.49);
+  -webkit-box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  margin-left: auto;
+  font-family: "Merienda", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height */
+  color: black;
+}
+
+.form .inputMessage {
+  width: 350px;
+  height: 120px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.49);
+  -webkit-box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  font-family: "Merienda", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height */
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+}
+
+.form .btn {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.49);
+  -webkit-box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  width: 120px;
+  height: 30px;
+  margin: 42px 0 32px 0;
+  font-family: "Merienda", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.error {
+  position: absolute;
+  right: 20px;
+  top: 0px;
+}

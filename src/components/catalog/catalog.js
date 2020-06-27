@@ -57,7 +57,7 @@ class Catalog extends Component {
     };
 
     const { items } = this.state;
-    console.log(this.props);
+
     return (
       <section className="catalog">
         <hr className="line" />

@@ -29,6 +29,11 @@ const Header = () => {
                 For your pleasure
               </Link>
             </li>
+            <li className="text">
+              <Link to="/contact" className="text">
+                Contact us
+              </Link>
+            </li>
           </ul>
         </nav>
       </div>
